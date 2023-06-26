@@ -25,11 +25,7 @@ import (
 
 // WorkerDeploymentSpec defines the desired state of WorkerDeployment
 type WorkerDeploymentSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-	// Important: Run "make" to regenerate code after modifying this file
-
-	// Foo is an example field of WorkerDeployment. Edit workerdeployment_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Version int `json:"version"`
 }
 
 // WorkerDeploymentStatus defines the observed state of WorkerDeployment

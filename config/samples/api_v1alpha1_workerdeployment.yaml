@@ -9,4 +9,4 @@ metadata:
     app.kubernetes.io/created-by: workerdeployment
   name: workerdeployment-sample
 spec:
-  worker-version: "v1"
+  version: 1
