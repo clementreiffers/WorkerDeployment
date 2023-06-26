@@ -1,0 +1,12 @@
+apiVersion: api.worker-deployment/v1alpha1
+kind: WorkerDeployment
+metadata:
+  labels:
+    app.kubernetes.io/name: workerdeployment
+    app.kubernetes.io/instance: workerdeployment-sample
+    app.kubernetes.io/part-of: workerdeployment
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: workerdeployment
+  name: workerdeployment-sample
+spec:
+  worker-version: "v1"
