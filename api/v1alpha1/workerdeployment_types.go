@@ -25,7 +25,8 @@ import (
 
 // WorkerDeploymentSpec defines the desired state of WorkerDeployment
 type WorkerDeploymentSpec struct {
-	Version int `json:"version"`
+	Version int    `json:"version"`
+	Image   string `json:"image"`
 }
 
 // WorkerDeploymentStatus defines the observed state of WorkerDeployment

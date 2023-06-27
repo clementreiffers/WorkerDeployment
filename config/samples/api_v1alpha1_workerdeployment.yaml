@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/part-of: workerdeployment
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/created-by: workerdeployment
-  name: workerdeployment-sample
+  name: "8e9375ab-dbff-4628-950f-7e384be9ead0" #deployment-id
 spec:
   version: 1
+  image: "1234.wasm-worker:1"
